@@ -17,7 +17,7 @@ function verificarSenha() {
         document.cookie = "senha=" + encodeURIComponent(senha) + "; max-age=86400; path=/";
 
         alert("Cadastro realizado com sucesso!");
-        window.location.href = "../Principal/principal.html";
+        window.location.href = "../PagInicial/Principal.html";
 
         alert("Cookies salvos: " + document.cookie);
     }
