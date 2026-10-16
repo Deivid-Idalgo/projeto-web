@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilizaçãoLogin.css">
+    <link rel="stylesheet" href="layoutLogin.css">
+    <title>PELUN</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="../Login/imgsLogin/logo.png" alt="Logo POTTER">
+        </div>
+
+        <div>
+            <a href="file:///C:/Users/Deivid/Documents/projeto-web/Login/Login.html" class="ativo">Login</a>
+            <a href="file:///C:/Users/Deivid/Documents/projeto-web/Cadastro/Cadastro.html">Cadastro</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="cadastro">
+
+
+            <h2>Entre na sua<br>conta Potter.</h2>
+
+            <form>
+
+                <input type="email" placeholder="E-mail"
+                required id="gmailLogin">
+
+                <input type="password" placeholder="Senha"
+                required id="senhaLogin">
+
+            </form>
+            
+            <button onclick="verificarLogin()" >Entrar →</button>
+
+            <div class="divisor">
+                <p>OU</p>
+            </div>
+
+            <p class="entrar">
+                Ainda não tem uma conta?
+                <a href="file:///C:/Users/Deivid/Documents/projeto-web/Cadastro/Cadastro.html">Criar conta</a>
+            </p>
+
+        </section>
+
+        <div style="width: 300px;"></div>
+
+    </main>
+
+    <script src="Login.js"></script>
+
+</body>
+</html>
